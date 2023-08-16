@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.tensorflow.codelabs.objectdetection.app-mergeDebugResources-13:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\5c2669e0c3ad15133568680192818bd8\\transformed\\material-1.3.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,75",
+                        "endOffsets": "102,178"
+                    }
+                }
+            ]
+        }
+    ]
+}
