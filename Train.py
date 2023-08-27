@@ -39,8 +39,8 @@ model = object_detector.create(train_data=train_data,
 
 model.evaluate(test_data)
 
-TFLITE_FILENAME = 'efficientdet-lite-salad.tflite'
-LABELS_FILENAME = 'salad-labels.txt'
+TFLITE_FILENAME = 'trained_model.tflite'
+LABELS_FILENAME = 'model-labels.txt'
 
 model.export(export_dir='.', tflite_filename=TFLITE_FILENAME, label_filename=LABELS_FILENAME,
              export_format=[ExportFormat.TFLITE, ExportFormat.LABEL])
