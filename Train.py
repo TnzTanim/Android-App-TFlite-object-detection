@@ -12,7 +12,7 @@ tf.get_logger().setLevel('ERROR')
 from absl import logging
 logging.set_verbosity(logging.ERROR)
 
-label_map = {1: 'Shrimp-disease'} 
+label_map = {1: 'player', 2: 'goalkeeper', 3:'referee', 4: 'ball'} 
 
 train_images_dir = '/content/drive/MyDrive/Data Split/trainimage'
 train_annotations_dir = '/content/drive/MyDrive/Data Split/trainanno'
