@@ -23,8 +23,10 @@ test_annotations_dir = '/content/drive/MyDrive/Data Split/testanno'
 
 train_data = object_detector.DataLoader.from_pascal_voc(
     train_images_dir, train_annotations_dir, label_map=label_map)
+
 validation_data = object_detector.DataLoader.from_pascal_voc(
     val_images_dir, val_annotations_dir, label_map=label_map)
+
 test_data = object_detector.DataLoader.from_pascal_voc(
     test_images_dir, test_annotations_dir, label_map=label_map)
 
